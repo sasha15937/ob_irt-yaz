@@ -15,10 +15,55 @@ main {
 
 .about {
     display: flex;
-    flex-direction: column;
     background: var(--bgc-card);
     border-radius: 3rem;
-    padding: 1rem 2rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.about--img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
+}
+
+.about--right {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0 6rem;
+}
+
+.about--right__text {
+    gap: 1rem;
+}
+
+.important {
+    display: flex;
+    flex-direction: row-reverse;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.important--img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
+}
+
+.important--left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0 6rem;
+}
+
+.important--left__text {
+    gap: 1rem;
 }
