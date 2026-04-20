@@ -62,27 +62,12 @@ a {
     gap: 2rem;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    background: var(--bgc-card) url(images/bgs/bg-1.png);
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    border-radius: 3rem;
-    text-align: center;
-}
-
 h1 {
     font-size: 32pt;
 }
 
 h2 {
     font-size: 24pt;
-}
-
-.hero__text{
-    font-size: 18pt;
 }
 
 button {
@@ -93,16 +78,6 @@ button {
     color: var(--color-head);
     font-family: var(--font);
     font-size: 14pt;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    background: var(--bgc-card);
-    border-radius: 3rem;
-    padding: 1rem 2rem;
-    justify-content: center;
-    align-items: center;
 }
 
 footer {
