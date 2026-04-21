@@ -1,0 +1,59 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background: var(--bgc-card) url(images/bgs/bg-about.png);
+    justify-content: center;
+    height: 400px;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.hero {
+    padding: 0 20vw;
+}
+
+.exemple--lf__text,
+.folk--lf__txt {
+    display: flex;
+    gap: 10px;
+    flex-grow: 2;
+    padding: 1rem 3rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.folk {
+    display: flex;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.folk--lf {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.exemple {
+    display: flex;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exemple--lf {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
+}
