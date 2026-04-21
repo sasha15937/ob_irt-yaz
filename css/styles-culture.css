@@ -36,6 +36,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    flex-grow: 2;
 }
 
 .exemple {
@@ -49,6 +50,7 @@ main {
 .exemple--lf {
     display: flex;
     justify-content: center;
+    flex-grow: 2;
 }
 
 img {
