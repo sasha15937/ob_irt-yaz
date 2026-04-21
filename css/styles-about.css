@@ -1,11 +1,23 @@
 main {
     display: flex;
     flex-direction: column;
-    background: var(--bgc-card);
+    background: var(--bgc-card) url(images/bgs/bg-about.png);
     justify-content: center;
-    height: 600px;
+    height: 400px;
     border-radius: 3rem;
     text-align: center;
+}
+
+.why--lf__text,
+.target--lf__txt {
+    display: flex;
+    gap: 10px;
+    flex-grow: 2;
+    padding: 1rem 3rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .target {
@@ -16,24 +28,12 @@ main {
     align-items: center;
 }
 
-.target--img {
-    display: flex;
-    max-height: 400px;
-    max-width: 500px;
-    border-radius: 3rem;
-}
-
 .target--lf {
     display: flex;
-    flex-direction: column;
-    width: 50vw;
     justify-content: center;
-    padding: 0 6rem;
 }
 
-.target--lf__txt {
-    gap: 1rem;
-}
+.target--lf__txt {}
 
 .why {
     display: flex;
@@ -45,8 +45,15 @@ main {
 
 .why--lf {
     display: flex;
-    flex-direction: column;
-    width: 50vw;
+    flex-direction: row-reverse;
     justify-content: center;
-    padding: 0 6rem;
+}
+
+.why--lf__text {}
+
+img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
 }
