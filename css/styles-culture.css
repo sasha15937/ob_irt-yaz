@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
-    background: var(--bgc-card) url(images/bgs/bg-about.png);
+    background: var(--bgc-card) url(images/bgs/bg-culture.png);
     justify-content: center;
     height: 400px;
     border-radius: 3rem;
