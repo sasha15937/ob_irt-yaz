@@ -12,7 +12,6 @@ html {
 }
 
 body {
-    margin: 1rem 5rem 0;
     display: flex;
     font-family: var(--font);
     font-size: 1.6rem;
@@ -28,7 +27,7 @@ body {
 
 header {
     position: sticky;
-    top: 0;
+    top: 1rem;
     z-index: 100;
     display: flex;
     background-color: var(--color-btn);
@@ -122,18 +121,18 @@ ul {
 
 @media screen and (max-width: 1980px) {
     body { 
-        margin: 1rem 15rem 0;
+        margin: 2rem 15rem 0;
     }
 }
 
 @media screen and (max-width: 1440px) {
     body { 
-        margin: 1rem 10rem 0;
+        margin: 2rem 10rem 0;
     }
 }
 
 @media screen and (max-width: 1280px) {
     body {
-        margin: 1rem 5rem 0;
+        margin: 2rem 5rem 0;
     }
 }
